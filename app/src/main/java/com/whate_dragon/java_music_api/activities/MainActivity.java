@@ -65,7 +65,6 @@ public class MainActivity extends AppCompatActivity {
 
                         movies.add(movie);
                     }
-
                     movieAdapter = new MovieAdapter(MainActivity.this, movies);
                     recyclerView.setAdapter(movieAdapter);
                 } catch (JSONException e) {
