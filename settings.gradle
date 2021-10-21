@@ -1,0 +1,2 @@
+rootProject.name = "Java_Music_API"
+include ':app'
